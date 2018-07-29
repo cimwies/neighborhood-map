@@ -49,7 +49,7 @@ class Marker extends Component {
     }
 
 
-    populateInfoWindow(marker, infowindow, name, thumbnailSource, wikipediaSource) {
+    populateInfoWindow(marker, infowindow, name) {
 
         // Prevent opening a window of an already selected marker .
         if (infowindow.marker !== marker) {
@@ -82,7 +82,6 @@ class Marker extends Component {
             function addWikiInfos(wikiData) {
            
                 let htmlResult = '';
-                console.log(wikiData);
 
                 if (wikiData) {  
 
@@ -132,7 +131,6 @@ class Marker extends Component {
                 infowindow.marker = null;
             });
     
-       
             infowindow.open(map, marker);
             map.fitBounds(bounds);
             map.panTo(marker.getPosition());
