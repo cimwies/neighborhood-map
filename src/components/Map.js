@@ -52,8 +52,8 @@ class Map extends Component {
             });
 
             function checkSizeWindow(objWindow){
-                if(objWindow.innerWidth < 475) {
-                    divMapElement.style.height = 'calc(100vh - 53px)';
+                if(objWindow.innerWidth < 400) {
+                    divMapElement.style.height = 'calc(100vh - 46px)';
                 } else {
                     divMapElement.style.height = 'calc(100vh - 53px)';
                 }
