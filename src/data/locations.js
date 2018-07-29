@@ -48,6 +48,21 @@ export const locations = [
                }
      },
      {
+          type: "Temple",
+          icon: "https://www.allegrodesign.de/fileadmin/images/Temple.png",
+          name: "Togakushi-jinja",
+          thumbnail: "/images/togakushi.jpg",
+          thumbnailSource: "https://allegrodesign.de/fileadmin/images/togakushi.jpg",
+          source: "http://www.togakushi-jinja.jp/",
+          wikipedia: "https://en.wikipedia.org/wiki/Togakushi_Shrine",
+          wikipediaSource: "Togakushi_Shrine",
+          authorImg: "By 663highland - Own work, https://commons.wikimedia.org/wiki/File:160430_Togakushi-jinja_Chusha_Nagano_Japan01s3.jpg",
+          coordinates: {
+               lat: "36.742465",
+               lng:"138.085098"
+               }
+     },
+     {
           type: "Town",
           icon: "https://www.allegrodesign.de/fileadmin/images/Town.png",
           name: "Hiraizumi Historic Town",

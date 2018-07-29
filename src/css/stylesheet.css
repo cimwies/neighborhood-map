@@ -42,7 +42,7 @@ ul {
 }
 
 
-/* Document */
+/* Styles */
 
 body, 
 h1,
@@ -77,7 +77,7 @@ h1 {
     color: #ecedee;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.01rem;
     padding: 3px 4px;
 }
 
@@ -186,9 +186,7 @@ hr {
 }
 
 
-
-/* big size: 18px */
-
+/* Media Queries */
 
 @media (min-width: 400px) and (max-width: 599px) {
 
@@ -222,10 +220,8 @@ hr {
         max-width: 248px;
         max-height: 300px;
     }
+
 }
-
-
-
 
 
 @media (min-width: 600px) {
@@ -257,6 +253,7 @@ hr {
     }
 
     .infowindow-content {
+        max-width: 280px;
         max-height: 330px;
     }
 }

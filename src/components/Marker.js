@@ -108,7 +108,6 @@ class Marker extends Component {
                 }                  
                    
                 infowindow.setContent(htmlResult);
-                infowindow.setZIndex(99);
             }
             
             //if Error in Request
@@ -130,7 +129,7 @@ class Marker extends Component {
             infowindow.addListener('closeclick', function() {
                 infowindow.marker = null;
             });
-    
+
             infowindow.open(map, marker);
             map.fitBounds(bounds);
             map.panTo(marker.getPosition());
