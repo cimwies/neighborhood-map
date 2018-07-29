@@ -38,18 +38,18 @@ class App extends Component {
         this.setState({ locationsGoogle: result });   
     }
 
-  render = () => {
+    render = () => {
 
-      return (
-          <div className="App">
-              <Filter handleQuery={this.handleQuery} />
-              <MapContainer 
-                google={this.props.google}
-                onChangeMarker={this.onChangeMarker}
-                locationsGoogle={this.state.locationsGoogle} />
-          </div>
-      );
-  }
+        return (
+            <div className="App">
+                <Filter handleQuery={this.handleQuery} />
+                <MapContainer 
+                  google={this.props.google}
+                  onChangeMarker={this.onChangeMarker}
+                  locationsGoogle={this.state.locationsGoogle} />
+            </div>
+        );
+    }
 }
 
 export default GoogleApiWrapper({

@@ -32,10 +32,10 @@ class Map extends Component {
             const { lat, lng } = constants.neighborhood;
             const center = new maps.LatLng(lat, lng);
             const mapObj = Object.assign({}, {
-                  center: center,
-                  zoom: mapStyles.zoom,
-                  styles: mapStyles.styles,
-                  mapTypeControl: mapStyles.mapTypeControl
+                center: center,
+                zoom: mapStyles.zoom,
+                styles: mapStyles.styles,
+                mapTypeControl: mapStyles.mapTypeControl
             })
             
             //inst. the map            
