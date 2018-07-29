@@ -25,7 +25,7 @@ Filtering the stored places is possible using the filter function. It will show 
 
 ### How to view
 
-## Development mode
+#### Development mode
 
 1. Clone the repo using this command:
 
@@ -53,7 +53,7 @@ With your server running, visit the site: `http://localhost:3000`, and discover 
 
 PLEASE NOTE: The service workers for this app will only cache the site when it is in production mode.
 
-## Production Mode
+#### Production Mode
 
 1. First run the command
 
