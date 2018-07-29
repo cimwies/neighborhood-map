@@ -25,6 +25,8 @@ Filtering the stored places is possible using the filter function. It will show 
 
 ### How to view
 
+## Development mode
+
 1. Clone the repo using this command:
 
 ```sh
@@ -48,6 +50,30 @@ npm start
 4. Using the app
 
 With your server running, visit the site: `http://localhost:3000`, and discover some intersting places in Japan.
+
+PLEASE NOTE: The service workers for this app will only cache the site when it is in production mode.
+
+## Production Mode
+
+1. First run the command
+
+```sh
+npm run build
+```
+
+2. Navigate to the build directory and run a localhost server. If you have Python 2.x installed you can run the Python Simple Server like this.
+
+```sh
+python -m SimpleHTTPServer 8080
+```
+
+For Python 3.x, the command is:
+
+```sh
+-m http.server 8080
+```
+
+3. Navigate to http://localhost:8000 in your browser
 
 
 ### Sources used in Code
