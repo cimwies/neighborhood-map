@@ -133,6 +133,7 @@ class Marker extends Component {
             infowindow.open(map, marker);
             map.fitBounds(bounds);
             map.panTo(marker.getPosition());
+            map.panBy(0, -200);
         }
     }
 
