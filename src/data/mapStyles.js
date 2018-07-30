@@ -1,4 +1,5 @@
 // mapStyles.js
+// Note from Google about Korea: https://productforums.google.com/forum/#!topic/maps-ko/AI_0FslsAs4
 
 const mapStyles = {
 
@@ -200,7 +201,7 @@ const mapStyles = {
                 "color": "#77c4d3"
             }
         ]
-    }
+    },
 ]
 };
 

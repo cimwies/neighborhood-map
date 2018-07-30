@@ -62,9 +62,9 @@ class Map extends Component {
             //force the update here to get this.map filled         
             this.forceUpdate();
         } else {
-            console.log('Ops! We cant access Google Maps API for now!')
+            console.log('Ops!Google Maps API can not be accessed now, please come back later!')
             let mapContainerElemt = document.querySelector('.main-container');
-            mapContainerElemt.innerHTML = '<div class="error-msg">Ops! We cant access Google Maps API for now! </div>'
+            mapContainerElemt.innerHTML = '<div class="error-msg">Ops!Google Maps API can not be accessed now, please come back later! </div>'
         }
     }
 
@@ -78,7 +78,7 @@ class Map extends Component {
         const { onChangeMarker } = this.props;
 
         return (
-            <div ref='map' style={style} className="main-container" tabindex="-1" >
+            <div ref='map' style={style} className="main-container" tabIndex="-1" >
                 Loading map...
                 {locations.locations.map( (location, index) => (
                     <Marker   
