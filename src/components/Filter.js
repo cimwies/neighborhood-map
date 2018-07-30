@@ -29,6 +29,7 @@ class Filter extends Component {
                                 type = "search"  
                                 placeholder = "click here to filter"
                                 autoComplete= "Input to filter places"
+                                tabindex = "1"
                                 onChange = {(event) => handleQuery(event.target.value)}
                                 onFocus = {() => this.showList()}
                                 />
