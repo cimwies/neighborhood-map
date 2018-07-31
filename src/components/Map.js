@@ -3,12 +3,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import mapStyles from '../data/mapStyles';
-import * as constants from '../data/constants';
 import * as locations from '../data/locations';
+import * as constants from '../data/constants';
 import Marker from './Marker';
 
 
 class Map extends Component {
+
 
     componentDidMount() { 
         this.loadMap();
@@ -103,3 +104,4 @@ class Map extends Component {
 }
 
 export default Map;
+

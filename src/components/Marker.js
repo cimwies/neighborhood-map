@@ -1,4 +1,5 @@
 // Marker.js
+// https://transform.now.sh/
 
 import { Component } from 'react';
 import PropTypes from 'prop-types';
@@ -8,7 +9,7 @@ class Marker extends Component {
 
 
     componentDidUpdate(prevProps) {
-   
+
         if ((this.props.map !== prevProps.map) ||
             (this.props.position !== prevProps.position)) {
             this.renderMarker();
@@ -147,4 +148,8 @@ export default Marker;
 
 Marker.propTypes = {
     map: PropTypes.object
-}
+}   
+
+
+
+

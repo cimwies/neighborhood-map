@@ -4,10 +4,10 @@ export const locations = [
                
      {
           type: "Temple",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Temple.png",
+          icon: "../icons/Temple.png",
           name: "Kiyomizu-dera",
           thumbnail: "/images/kiyomizudera.jpg",
-          thumbnailSource: "https://allegrodesign.de/fileadmin/images/kiyomizudera.jpg",
+          thumbnailSource: "http://localhost:3000/images/kiyomizudera.jpg",
           source: "http://www.kiyomizudera.or.jp/en/",
           wikipedia: "https://en.wikipedia.org/wiki/Kiyomizu-dera",
           wikipediaSource: "Kiyomizu-dera",
@@ -19,7 +19,7 @@ export const locations = [
      },
      {
           type: "Temple",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Temple.png",
+          icon: "../icons/Temple.png",
           name: "Nara Temple Tōdai-ji",
           thumbnail: "/images/todai-ji.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/todai-ji.jpg",
@@ -34,7 +34,7 @@ export const locations = [
      },
      {
           type: "Temple",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Temple.png",
+          icon: "../icons/Temple.png",
           name: "Ryōan-ji Temple",
           thumbnail: "/images/ryoan-ji.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/ryoan-ji.jpg",
@@ -49,7 +49,7 @@ export const locations = [
      },
      {
           type: "Temple",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Temple.png",
+          icon: "../icons/Temple.png",
           name: "Togakushi-jinja",
           thumbnail: "/images/togakushi.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/togakushi.jpg",
@@ -64,7 +64,7 @@ export const locations = [
      },
      {
           type: "Town",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Town.png",
+          icon: "..icons/Town.png",
           name: "Hiraizumi Historic Town",
           thumbnail: "/images/hiraizumi.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/hiraizumi.jpg",
@@ -79,7 +79,7 @@ export const locations = [
      },
      {
           type: "Bamboo",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Bamboo.png",
+          icon: "../icons/Bamboo.png",
           name: "Sagano Bamboo Forest",
           thumbnail: "/images/sagano-bamboo-forest.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/sagano-bamboo-forest.jpg",
@@ -94,7 +94,7 @@ export const locations = [
      },       
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "../icons/Garden.png",
           name: "Ueno Onshi Park Tokyo",
           thumbnail: "/images/ueno.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/ueno.jpg",
@@ -109,7 +109,7 @@ export const locations = [
      },
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "../icons/Garden.png",
           name: "Hase-dera Secret Garden",
           thumbnail: "/images/hasedera.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/hasedera.jpg",
@@ -124,7 +124,7 @@ export const locations = [
      },
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "..icons/Garden.png",
           name: "Ōhashi-ke Secret Garden",
           thumbnail: "/images/ohashi-ke.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/ohashi-ke.jpg",
@@ -139,7 +139,7 @@ export const locations = [
      },
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "../icons/Garden.png",
           name: "Erin-ji Famous Garden",
           thumbnail: "/images/erin-ji.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/erin-ji.jpg",
@@ -154,7 +154,7 @@ export const locations = [
      },
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "../icons/Garden.png",
           name: "Hōkoku-ji Bamboo Temple",
           thumbnail: "/images/hokoku-ji.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/hokoku-ji.jpg",
@@ -169,7 +169,7 @@ export const locations = [
      },
      {
           type: "Garden",
-          icon: "https://www.allegrodesign.de/fileadmin/images/Garden.png",
+          icon: "../icons/Garden.png",
           name: "Ritsurin Kōen",
           thumbnail: "/images/ritsurin.jpg",
           thumbnailSource: "https://allegrodesign.de/fileadmin/images/ritsurin.jpg",
